@@ -1,6 +1,6 @@
 
 :root{
-    --primary-color:white;
+    --primary-color:black;
     --navbar-text-color:orange
     ;
     --navbar-link:orange;
@@ -12,6 +12,7 @@
     border-left:20px solid transparent;
     border-right:20px solid transparent;
     border-bottom: 40px solid lightblue;
+    shape-outside: inset(100% 100% 100% 100%);
 }
 .nav-bar{
     background-color:var(--primary-color) ;
@@ -20,7 +21,11 @@
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
-
+a{
+    background:transparent;
+    background-color: transparent;
+    display: flex;
+}
 .nav-bar .nav-title{
     font-weight:bold;
     font-size:2rem;
