@@ -1,0 +1,46 @@
+
+:root{
+    --primary-color:#2563EB;
+    --navbar-text-color:white;
+    --navbar-link:white;
+
+}
+.nav-bar{
+    background-color:var(--primary-color) ;
+    color:var(--navbar-text-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.nav-bar .nav-title{
+    font-weight:bold;
+    font-size:1.1rem;
+}
+
+.nav-bar .nav-links{
+text-align: right;
+}
+
+.nav-bar .link{
+    color:var(--navbar-link);
+}
+
+.nav-bar .link-active{
+    font-weight: bold;
+}
+
+
+.list-non-bullet{
+    list-style:none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.link{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0.5rem 1 rem;;
+}
