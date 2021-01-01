@@ -1,8 +1,9 @@
 
 :root{
-    --primary-color:#2563EB;
-    --navbar-text-color:white;
-    --navbar-link:white;
+    --primary-color:yellow;
+    --navbar-text-color:orange
+    ;
+    --navbar-link:orange;
 
 }
 .nav-bar{
@@ -10,15 +11,17 @@
     color:var(--navbar-text-color);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .nav-bar .nav-title{
     font-weight:bold;
-    font-size:1.1rem;
+    font-size:2rem;
+    text-align: center;
 }
 
 .nav-bar .nav-links{
-text-align: right;
+text-align: center;
 }
 
 .nav-bar .link{
@@ -36,7 +39,8 @@ text-align: right;
 
 .list-item-inline{
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 0rem 2rem;
+    font-size: large;
 }
 
 .link{
