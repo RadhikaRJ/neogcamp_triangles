@@ -8,7 +8,7 @@
 }
 
 #main-container{
- 
+ display: flex;
 }
 .btn{
 text-transform: uppercase;
@@ -31,14 +31,20 @@ border: solid 1px transparent;
     padding:0.5rem 0.5rem;
 }
 
+ 
+
+
+
 .nav-bar{
     display:grid;
     background-color:var(--primary-color) ;
     color:var(--navbar-text-color);
-    padding: 0.5rem;
-  
+    padding:1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    
+  
+   
 }
 a{
     background:transparent;
