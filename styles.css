@@ -15,18 +15,20 @@ text-transform: uppercase;
 border: solid 1px transparent;
     border-radius: 4px;
     font-family: 'Libre Baskerville', serif;
-    margin: 2px 0;
+    margin: 1px 5px;
     padding: 0.5em 1em;
 }
 .wrapper{
     display:grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap:10px;
+
 }
 .wrapper div{
     display:grid;
     text-transform: uppercase;
     background-color: var(--navbar-text-color);  
-    padding:1rem 2rem;
+    padding:0.5rem 0.5rem;
 }
 
 .nav-bar{
@@ -47,12 +49,13 @@ a{
     font-weight:bold;
     font-size:1.5rem;
     text-align: center;
+    padding:0.5rem ;
   
 }
 
 .nav-bar .nav-links{
 text-align: center;
-padding:2rem 2rem;
+padding:1rem 1rem;
 }
 
 .nav-bar .link{
@@ -77,6 +80,6 @@ padding:2rem 2rem;
 .link{
     text-decoration: none;
     box-sizing: border-box;
-    padding: 0.5rem 1rem;;
+    padding: 0.5rem 0.5rem;;
 }
 
