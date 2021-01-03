@@ -8,7 +8,7 @@
 }
 
 #main-container{
- display: flex;
+ display:inline;
 }
 .btn{
 text-transform: uppercase;
