@@ -10,6 +10,9 @@
 #main-container{
  display:inline;
 }
+#main-container h3{
+    text-align: center;
+}
 .btn{
 text-transform: uppercase;
 border: solid 1px transparent;
