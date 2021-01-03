@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 :root{
     --primary-color:black;
     --navbar-text-color:orange
@@ -6,7 +6,9 @@
     --navbar-link:orange;
 
 }
-
+body{
+    font-family: 'Cinzel', serif;
+}
 #main-container{
  display:inline;
 }
@@ -113,7 +115,7 @@ div:first-of-type {
     width: 16px;
     height: 16px;
   
-    border: 2px solid #999;
+    border: 2px solid rgb(32, 5, 107);
     transition: 0.2s all linear;
     margin-right: 5px;
   
@@ -122,13 +124,13 @@ div:first-of-type {
   }
 
   input:checked {
-    border: 6px solid black;
+    border: 6px solid rgb(136, 8, 161);
   }
 
   button,
 legend {
   color: white;
-  background-color: black;
+  background-color: rgb(196, 21, 187);
   padding: 5px 10px;
   border-radius: 0;
   border: 0;
@@ -137,10 +139,10 @@ legend {
 
 button:hover,
 button:focus {
-  color: #999;
+  color: rgb(121, 14, 163);
 }
 button:active {
     background-color: white;
-    color: black;
-    outline: 1px solid black;
+    color: rgb(124, 15, 115);
+    outline: 1px solid rgb(0, 0, 0);
   }
