@@ -38,11 +38,12 @@
     </nav>
     <div id="main-container">
         <h3>Time for Quiz!</h3>
+        <form>
         <ol>
             <li>
                 <div>This type of triangle has one 90 degree angle:<br>
 
-                    <input type="radio" id="q1choice1" name="q1" value="right">
+                    <input type="radio" id="q1choice1" name="q1" value="right" checked>
                     <label for="q1choice1">Right</label>
 
                     <input type="radio" id="q1choice2" name="q1" value="acute">
@@ -57,7 +58,7 @@
             <li>
                 <div> A ________ triangle is one where all 3 angles measure less than 90 degrees.<br>
 
-                    <input type="radio" id="q2choice1" name="q2" value="right">
+                    <input type="radio" id="q2choice1" name="q2" value="right" checked>
                     <label for="q2choice1">Right</label>
 
                     <input type="radio" id="q2choice2" name="q2" value="acute">
@@ -72,7 +73,7 @@
             <li>
                 <div> All 3 angles of a triangle add up to:<br>
 
-                    <input type="radio" id="q3choice1" name="q3" value="120">
+                    <input type="radio" id="q3choice1" name="q3" value="120" checked>
                     <label for="q3choice1">120</label>
 
                     <input type="radio" id="q3choice2" name="q3" value="180">
@@ -87,7 +88,7 @@
             <li>
                 <div> When length of two sides of a triangle is same, it is called a ________ triangle.<br>
 
-                    <input type="radio" id="q4choice1" name="q4" value="Equilateral">
+                    <input type="radio" id="q4choice1" name="q4" value="Equilateral" checked>
                     <label for="q4choice1">Equilateral</label>
 
                     <input type="radio" id="q4choice2" name="q4" value="Scalane">
@@ -102,7 +103,7 @@
             <li>
                 <div> When length of all three sides of a triangle is same, it is called a ________ triangle.<br>
 
-                    <input type="radio" id="q5choice1" name="q5" value="Equilateral">
+                    <input type="radio" id="q5choice1" name="q5" value="Equilateral" checked>
                     <label for="q5choice1">Equilateral</label>
 
                     <input type="radio" id="q5choice2" name="q5" value="Scalane">
@@ -116,7 +117,7 @@
             <br>
             <li>
                 <div> When all three sides of the tringle have different lengths, it is called a __________ triangle<br>
-                    <input type="radio" id="q6choice1" name="q6" value="Equilateral">
+                    <input type="radio" id="q6choice1" name="q6" value="Equilateral" checked>
                     <label for="q6choice1">Equilateral</label>
 
                     <input type="radio" id="q6choice2" name="q6" value="Scalane">
@@ -131,7 +132,7 @@
             <li>
                 <div> If one of the angles of a triangle is larger than 90 degrees, then it is an ___________ triangle.<br>
 
-                    <input type="radio" id="q7choice1" name="q7" value="Acute">
+                    <input type="radio" id="q7choice1" name="q7" value="Acute" checked>
                     <label for="q7choice1">Acute</label>
 
                     <input type="radio" id="q7choice2" name="q7" value="Obtuse">
@@ -146,7 +147,7 @@
             <li>
                 <div> a^2 + b^2 =c^2 is known as:<br>
 
-                    <input type="radio" id="q8choice1" name="q8" value="Meanvalue">
+                    <input type="radio" id="q8choice1" name="q8" value="Meanvalue" checked>
                     <label for="q8choice1">Mean Value Theorem</label>
 
                     <input type="radio" id="q8choice2" name="q8" value="MidPoint">
@@ -161,7 +162,7 @@
             <li>
                 <div> The study of geometry related to triangles is called <br>
 
-                    <input type="radio" id="q9choice1" name="q9" value="Algebra">
+                    <input type="radio" id="q9choice1" name="q9" value="Algebra" checked>
                     <label for="q9choice1">Algebra</label>
 
                     <input type="radio" id="q9choice2" name="q9" value="Trigonometry">
@@ -176,7 +177,7 @@
             <li>
                 <div> A triangle having two sides of equal length & a right angle is a <br>
 
-                    <input type="radio" id="q10choice1" name="q10" value="RightIsoc">
+                    <input type="radio" id="q10choice1" name="q10" value="RightIsoc" checked>
                     <label for="q10choice1">Isoceles & Right Triangle</label>
 
                     <input type="radio" id="q10choice2" name="q10" value="right">
@@ -188,6 +189,10 @@
                 </div>
             </li>
         </ol>
+        <div>
+            <button id="submitQuiz" class="btn">Submit</button>
+        </div>
+        </form>
         <div id="quiz-response">
 
         </div>
