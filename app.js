@@ -1,3 +1,4 @@
+//quiz result 
 var quizBtnref = document.querySelector("#submitQuiz");
 
 var quizScoreRef = document.querySelector("#quiz-response");
@@ -35,3 +36,5 @@ function calculateQuizResult(){
         
     } 
 }
+
+
