@@ -32,7 +32,7 @@ border: solid 1px transparent;
     background-color: var(--button-background-color);
 }
 #submitQuiz{
-    margin-left:35rem;
+    margin-left:45rem;
 }
 .nav-bar{
     display:grid;
@@ -155,4 +155,13 @@ button:active {
     background-color: var(--button-background-color);
     color:var(--button-textcolor);
     outline: 1px solid rgb(0, 0, 0);
+  }
+
+  /*quiz-response*/
+  #quiz-response{
+      color:var(--navbar-text-link-color);
+      text-align: center;
+      float:center;
+      background-color:var(--primary-color) ;
+      padding:1rem 1rem;
   }
