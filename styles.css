@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 :root{
-    --primary-color:black;
-    --navbar-text-color:orange
-    ;
-    --navbar-link:orange;
+    --primary-color:#821D30;
+    --navbar-text-link-color:white;
+    --main-container-background-color:#F6CBB7;
+    --quiz-input-checked-color:#821D30;
+    --button-background-color:#821D30;
+    --button-hover-color:#F6CBB7;
+    --button-textcolor:white;
 
 }
 body{
     font-family: 'Cinzel', serif;
+    background-color:var(--main-container-background-color);
+
 }
-#main-container{
- display:inline;
-}
-#main-container h3{
+
+
+
+.main-container h3{
     text-align: center;
 }
+
 .btn{
 text-transform: uppercase;
 border: solid 1px transparent;
@@ -22,51 +28,49 @@ border: solid 1px transparent;
     font-family: 'Libre Baskerville', serif;
     margin: 1px 5px;
     padding: 0.5em 1em;
+    background-color: var(--button-background-color);
 }
-.wrapper{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:10px;
-
+#submitQuiz{
+    margin-left:35rem;
 }
-.wrapper div{
-    display:grid;
-    text-transform: uppercase;
-    background-color: var(--navbar-text-color);  
-    padding:0.5rem 0.5rem;
-}
-
- 
-
-
-
 .nav-bar{
     display:grid;
     background-color:var(--primary-color) ;
-    color:var(--navbar-text-color);
-    padding:1rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    
-  
-   
+    color:var(--navbar-text-link-color);
+    padding:0rem 2rem 0.5rem 1rem;
+    border-bottom-right-radius: 1rem; 
+    border-top-left-radius:1rem;  
+    margin:0px;
 }
-a{
+.nav-bar a{
     background:transparent;
     background-color: transparent;
-    display: flex;
+    display: inline;
+    color: var(--navbar-text-link-color);
+    text-decoration: none;
+    padding: 0rem 1rem 0rem 1rem ;
+    margin:0px;
+}
+
+.nav-bar a:hover{
+    background-color: #CB857C;
+    
+}
+
+.nav-bar a:active{
+    background-color: #CB857C;
 }
 .nav-bar .nav-title{
     font-weight:bold;
     font-size:1.5rem;
     text-align: center;
-    padding:0.5rem ;
+    padding:1rem ;
   
 }
 
 .nav-bar .nav-links{
 text-align: center;
-padding:1rem 1rem;
+
 }
 
 .nav-bar .link{
@@ -124,25 +128,26 @@ div:first-of-type {
   }
 
   input:checked {
-    border: 6px solid rgb(136, 8, 161);
+    border: 6px solid var(--quiz-input-checked-color);
   }
 
   button,
 legend {
-  color: white;
-  background-color: rgb(196, 21, 187);
+  color: var(--button-textcolor);
+  background-color: var(--quiz-input-checked-color);
   padding: 5px 10px;
   border-radius: 0;
   border: 0;
   font-size: 14px;
+ 
 }
 
 button:hover,
 button:focus {
-  color: rgb(121, 14, 163);
+  color:var(--button-hover-color);
 }
 button:active {
-    background-color: white;
-    color: rgb(124, 15, 115);
+    background-color: var(--button-background-color);
+    color:var(--button-textcolor);
     outline: 1px solid rgb(0, 0, 0);
   }
