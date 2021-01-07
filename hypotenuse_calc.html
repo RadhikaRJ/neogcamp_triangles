@@ -23,13 +23,26 @@
 
     </nav>
     <div class="main-container">
-        <h3>Find the length of Hypotenuse</h3>
-        <div id="response">
-            
-        </div>
-    </div>
+        <h3>Find the length of Right Triangle's Hypotenuse</h3>
+        <div id="calc-hypo">Enter the length of two sides perpendicular to each other in a Right Angled Triangle 
+            <br><br>
 
-    <script src="app.js" type="text/javascript"></script>
+            <label for="side-a"><strong>a:</strong></label>
+            <input type="number" name="height" id="side-a"><br>
+
+
+            <label for="side-b"><strong>b:</strong></label>
+            <input type="number" name="base" id="side-b">
+            <br>
+            <br>
+            <button id="hypotenuse-calc" class="btn">Find Hypotenuse Length</button>
+        </div>
+       
+    </div>
+    <div id="hypotenuse-response">
+            
+    </div>
+    <script src="calcHypo.js" type="text/javascript"></script>
 </body>
 
 </html>
