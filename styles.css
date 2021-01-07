@@ -188,10 +188,12 @@ button:active {
   .main-container #calc-hypo{
     float:center;
   }
-  #calc-hypo{
+  #calc-hypo,#calc-angle{
     display:block;
     
     padding: 1rem 1rem;
     justify-content: space-between;
     border: 3px solid var(--primary-color);
   }
+
+  /*angle calculation included above*/
