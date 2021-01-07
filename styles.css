@@ -112,6 +112,7 @@ div:first-of-type {
     line-height: 32px;
   }
 
+  
   .quiz-main-container input {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -127,6 +128,7 @@ div:first-of-type {
   
     position: relative;
     top: 4px;
+    
   }
 
   input:checked {
@@ -172,7 +174,7 @@ button:active {
 
   #area-calc-grid {
       display:flex;
-      flex-direction: row;
+      
       justify-content: space-between;
       border: 3px solid var(--primary-color);
       
@@ -181,4 +183,15 @@ button:active {
   #calc-method-1, #calc-method-2, #calc-method-3{
       padding:1rem 1rem;
      
+  }
+  /*Calculate Hypotenuse*/
+  .main-container #calc-hypo{
+    float:center;
+  }
+  #calc-hypo{
+    display:block;
+    
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    border: 3px solid var(--primary-color);
   }
