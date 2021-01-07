@@ -21,7 +21,9 @@ body{
 .main-container h3{
     text-align: center;
 }
-
+.quiz-main-container h3{
+    text-align: center;
+}
 .btn{
 text-transform: uppercase;
 border: solid 1px transparent;
@@ -110,7 +112,7 @@ div:first-of-type {
     line-height: 32px;
   }
 
-  input {
+  .quiz-main-container input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -164,4 +166,19 @@ button:active {
       float:center;
       background-color:var(--primary-color) ;
       padding:1rem 1rem;
+  }
+
+  /*area of triangle*/
+
+  #area-calc-grid {
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border: 3px solid var(--primary-color);
+      
+
+  }
+  #calc-method-1, #calc-method-2, #calc-method-3{
+      padding:1rem 1rem;
+     
   }
