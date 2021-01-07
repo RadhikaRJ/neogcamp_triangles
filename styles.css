@@ -18,7 +18,8 @@ body{
 
 
 
-.main-container h3{
+
+.main-container h3,h2{
     text-align: center;
 }
 .quiz-main-container h3{
@@ -34,7 +35,7 @@ border: solid 1px transparent;
     background-color: var(--button-background-color);
 }
 #submitQuiz{
-    margin-left:45rem;
+    margin-left:5rem;
 }
 .nav-bar{
     display:grid;
@@ -162,7 +163,7 @@ button:active {
   }
 
   /*quiz-response*/
-  #quiz-response{
+  #quiz-response,#angle-response,#area-response,#hypotenuse-response{
       color:var(--navbar-text-link-color);
       text-align: center;
       float:center;
