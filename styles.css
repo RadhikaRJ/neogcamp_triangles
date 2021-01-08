@@ -21,9 +21,13 @@ body{
 
 .main-container h3,h2{
     text-align: center;
+    text-shadow: 1px 1px 0 #000000, 2px 2px 0 #000000;
+    letter-spacing: 1px;;
 }
 .quiz-main-container h3{
     text-align: center;
+    letter-spacing:1px;
+    text-shadow: 1px 1px 0 #000000, 2px 2px 0 #000000;
 }
 .btn{
 text-transform: uppercase;
@@ -42,7 +46,8 @@ border: solid 1px transparent;
     background-color:var(--primary-color) ;
     color:var(--navbar-text-link-color);
     padding:0rem 2rem 0.5rem 1rem;
-     
+    text-shadow: 1px 1px 0 #000000, 2px 2px 0 #000000;
+    letter-spacing: 1px;
     margin:0px;
 }
 .nav-bar a{
